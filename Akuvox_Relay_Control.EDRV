@@ -1,9 +1,9 @@
-DRIVER_ID			= OUTPUT_CONTROLLER_LUA_NETWORK
+DRIVER_ID		= OUTPUT_CONTROLLER_LUA_NETWORK
 DRIVER_VERSION		= 1.0.4
-VENDOR				= Indigo
-DRIVER_NAME			= Akuvox Relay Control
-LUA_SRC				= Akuvox_Relay_Control.lua
-SCHEMA				= 96
+VENDOR			= Indigo
+DRIVER_NAME		= Akuvox Relay Control
+LUA_SRC			= Akuvox_Relay_Control.lua
+SCHEMA			= 96
 AUTHENTICATION		= BASIC
 CONFIG_BUTTON_1 	= Reboot Intercom
 
@@ -12,18 +12,18 @@ NOCHANGE_PORT
 
 [REGISTER_OUTPUTS_BEGIN]
      Akuvox Relay 1
-	 Akuvox Relay 2
+     Akuvox Relay 2
      Akuvox Relay 3
 [REGISTER_OUTPUTS_END]
 
 [CONFIG_STRINGS_BEGIN]
         CFG_STRING_1: READ_ONLY label: Model tag:sVarModel 
         CFG_STRING_2: READ_ONLY label: MAC address tag:sVarMAC 
-		CFG_STRING_3: READ_ONLY label: Firmware Version tag:sVarFW 
+	CFG_STRING_3: READ_ONLY label: Firmware Version tag:sVarFW 
 [CONFIG_STRINGS_END]
 
 [DRIVER_LOG_PROPERTIES_BEGIN]
        	LOG_COLUMN_2: label:Relay Number tag:relNum
-		LOG_COLUMN_1: label:Action tag:relStat
+	LOG_COLUMN_1: label:Action tag:relStat
 [DRIVER_LOG_PROPERTIES_END]
 
