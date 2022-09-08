@@ -19,3 +19,6 @@
 ![image](https://user-images.githubusercontent.com/50086268/189108016-08a3d1cf-3def-4c32-97f1-ad64ddacf464.png)
 
 * You'd be able to tell if connection was successful if the intercom Model, MAC address and Firmware version populate automatically in their respective fields.
+
+### Disclaimer
+This is an unsupported driver which I wrote in my spare time. Neither Elan nor Indigo Distribution (Premium Elan Distributor in the UK and Ireland) hold any responsibilty or offer any support for the use of this driver in your Elan systems. By adding this driver you accept all risks associated with introducing a hastily written driver to your controller software; you do this at YOUR OWN RISK. And as ever: **ALWAYS BACKUP YOUR SYSTEM**
